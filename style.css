@@ -1,0 +1,48 @@
+div{
+    background-color:rgb(45,76,67,0.6);/*rbg value 0-256*/
+    background-color: #abca; /* f value = 0-f*/
+    background-color:rgba(45,76,67,0.6);/*a=alphavalue 0-1*/
+    background-color: hsl(146,78%,68%);
+    /*background-image: url(nanma.jpg.jpg);
+    background-size: cover;*/
+
+    
+}
+/* div{
+    background-color: rgb(36, 81, 81);
+     height: 100%;
+    width: 100%;
+} */
+html,body{
+      height: 100%;
+      width: 100%;
+      margin: 0;
+
+}
+/* .box{
+    background-color: black;
+    height: 10%;
+    width: 20%;
+    margin: 10px;
+    margin-top: 70px;
+
+    margin-right: 50px;
+} */
+#abc{
+    background-color: yellow;
+    height: 50%;
+    width: 50%;
+     padding: 50px; 
+    box-sizing: content-box;
+    /* box-sizing: border-box; user space kurayum */
+    border: 7px solid red ;
+    border: 8px groove rebeccapurple;
+    color: rgb(49, 24, 137);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-size: 60px; */
+    font-size: 5em;
+    /* font-weight: lighter;
+    font-weight: bold;
+    font-weight: bolder; */
+    font-weight: 500;
+}

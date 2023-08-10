@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.outerclass{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    position: relative;
+}
+button{
+    position:absolute;
+    width: 6rem;
+    top: 50%;
+    right: 50%;
+    transition: 2s;
+}
+button::before{
+    content: "10";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 1rem;
+    width: 1rem;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    transform: translate(50%,-50%);
+}
+li::marker{
+    color: aquamarine;
+}
+.inner1{
+    background-color: blueviolet;
+    height: 50%;
+}
+p::selection{
+    color: brown;
+    background-color: antiquewhite;
+}
+li::marker{
+    color: brown;
+}
+button:hover{
+    background-color: rgb(20, 181, 76);
+    transform: scale(1.5);
+}
+input:focus{
+    background-color: rgb(173, 24, 196);
+    outline: yellow solid 2px;
+    
+}
+#cb:checked{
+         transform: translate(0,2rem);
+}
+input:disabled{
+    background-color: blue;
+}
+input:enabled{
+    background-color: aquamarine;
+}
+p{
+    height: 40px;
+    width: 80px;
+}
+p:empty{
+    background-color: yellow;
+}
